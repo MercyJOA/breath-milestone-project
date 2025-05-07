@@ -1,53 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
 /* remove default style */
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /* body */
 
-body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-.icon{
-    width:15% ;
-    height:15% ;
-    border: 2px solid #e4e70a;
-    border-radius: 50% ;
-    padding: 1px;
+.icon {
+  width: 15%;
+  height: 15%;
+  border: 2px solid #e4e70a;
+  border-radius: 50%;
+  padding: 1px;
 }
 /* header */
 
-header{
-    background-color: #6E936B;
-    width: 100%;
-    position: fixed;
-    z-index: 13;
-    padding: 0 1rem;
+header {
+  background-color: #6e936b;
+  width: 100%;
+  position: fixed;
+  z-index: 13;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
-header a{
-
+header a {
+  text-decoration: none;
+  color: #ffffff;
+}
+#menu {
+  font-size: 110%;
+  letter-spacing: 3px;
+  list-style-type: none;
+}
+#menu > li {
+  margin-bottom: 1em;
+}
+#logo {
+  color: #e4e70a;
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px;
+  margin-bottom: 0;
+}
+#logo-container img {
+  display: inline-block;
+  vertical-align: middle;
+}
+nav {
+  position: absolute;
+  background-color: #6e936b;
+  width: 100%;
+  left: 0;
+  padding: 0 1rem;
+  box-shadow: 0 2px 2px #3a3a3a;
+  font-family: "Unna", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  display: none;
+  top: 100%;
 }
 
-h1{
-
+#nav-toggle:checked ~ nav {
+  display: block;
 }
 
 /* main content */
 
-main{
-    background-color: lightgreen;
-    flex:  1 0 auto;
+main {
+  flex: 1 0 auto;
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #c6dfc4;
+  outline: auto;
+  margin-top: 3rem;
+  padding: 6rem;
+}
+.banner-container {
+  color: #0a4705;
+  background-image: url(assets\images\joshua-tsu-ifHBo0TTuBI-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #c6dfc4;
+  outline: auto;
+  outline: auto;
+  padding: 2rem;
 }
 
 /* footer */
 
-footer{
-    background-color: darkgreen;
+footer {
+  background-color: darkgreen;
 }
