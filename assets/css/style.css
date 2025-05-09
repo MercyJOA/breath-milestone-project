@@ -48,8 +48,8 @@ header a {
   margin-bottom: 1em;
 }
 #logo {
-  color: #ADD8E6;
-  font-family:  "Great Vibes", cursive;;
+  color: #add8e6;
+  font-family: "Great Vibes", cursive;
   font-weight: bold;
   font-style: normal;
   font-size: 2rem;
@@ -63,6 +63,7 @@ header a {
   display: inline-block;
   vertical-align: middle;
 }
+/* nav */
 nav {
   position: absolute;
   background-color: #0c6404;
@@ -76,9 +77,8 @@ nav {
   font-size: 1.5rem;
   display: none;
   top: 100%;
-  
 }
-#nav-toggle{
+#nav-toggle {
   display: none;
 }
 
@@ -110,39 +110,37 @@ main {
   padding-top: 5rem;
   text-align: center;
 }
-.banner-container h1{
-font-size:3.5rem ;
-font-family: Open Sans 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-text-shadow: 2px 2px 0px rgb(169, 214, 7),5px 5px 0px rgb(54, 50, 50);
-
+.banner-container h1 {
+  font-size: 3.5rem;
+  font-family: Open Sans "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 2px 2px 0px rgb(169, 214, 7), 5px 5px 0px rgb(54, 50, 50);
 }
-.banner-container p{
-  font-family:Unna serif;
+.banner-container p {
+  font-family: Unna serif;
   font-size: 1.5rem;
   font-weight: bold;
   letter-spacing: 6px;
   color: #e4e70f;
   text-shadow: 2px 2px 0px black;
 }
-.banner-container span{
+.banner-container span {
   color: #02394b;
-  font-family:  "Great Vibes", cursive;;
+  font-family: "Great Vibes", cursive;
   font-weight: bold;
   font-style: normal;
   font-size: 1.4rem;
   text-shadow: none;
 }
-.banner-container div{
+.banner-container div {
   background-color: rgba(255, 255, 255, 0.2);
-  padding:1rem;
+  padding: 1rem;
   text-align: center;
   width: 20rem;
-  height:10rem;
+  height: 10rem;
   border-radius: 5px;
   margin: auto;
-  
 }
-.banner-container button{
+.banner-container button {
   height: 40px;
   width: 150px;
   color: #a6eb31;
@@ -151,7 +149,8 @@ text-shadow: 2px 2px 0px rgb(169, 214, 7),5px 5px 0px rgb(54, 50, 50);
   border-radius: 5%;
   margin-bottom: 1rem;
   font-size: 1.5rem;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, serif;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -164,60 +163,68 @@ footer {
 
 /* media query for tablets*/
 
-@media screen and (min-width:768px){
+@media screen and (min-width: 768px) {
   /* header */
-  header{
+  header {
     height: 70px;
   }
-  nav{
+  nav {
     display: block;
     box-shadow: none;
     text-align: center;
     margin: auto;
-
   }
-#menu{
-position: relative;
-display: flex;
-font-size: 1.5rem;
-text-align: center;
-margin-left: 2rem;
+  #menu {
+    position: relative;
+    display: flex;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 2rem;
+  }
+  #menu li {
+    margin-left: 1rem;
+  }
 
-}
-#menu li{
-  margin-left: 1rem;
-}
+  #nav-toggle-label {
+    display: none;
+  }
 
-#nav-toggle-label{
-  display: none;
-}
+  /* banner */
 
-/* banner */
+  .banner-container div {
+    height: 15rem;
+    width: 30rem;
+    padding-top: 3rem;
+  }
+  .banner-container {
+    height: 30rem;
+  }
+  .banner-container p {
+    font-size: 2rem;
+  }
+  .banner-container h1 {
+    font-size: 4rem;
+  }
 
-.banner-container div{
-  height:15rem ;
-  width:30rem ;
-  padding-top: 3rem;
-  
-  
-}
-.banner-container{
-  height: 30rem;
-}
-.banner-container p{
-  font-size: 2rem;
-}
-.banner-container h1{
-  font-size: 4rem;
-}
-
-main{
-  margin-top: 75px;;
-}
+  main {
+    margin-top: 75px;
+  }
 }
 
 /* media query for larger screens laptops and larger */
 
-@media screen and (min-width:992px){
-  
+@media screen and (min-width: 992px) {
+  /* header */
+  #menu>li{
+    margin-left: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    margin: auto;
+    padding: 1.5rem;
+  }
+  #menu a:hover{
+    color:#76d4f3 ;
+    letter-spacing: 5px;
+    border-bottom: 2px solid #c6dfc4 ;
+  }
 }
