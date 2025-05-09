@@ -13,6 +13,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  
 }
 
 .icon {
@@ -94,7 +95,6 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #c6dfc4;
-  outline: 5px solid red;
   padding: 2rem 0;
 }
 /*banner*/
@@ -179,31 +179,63 @@ footer {
     display: flex;
     font-size: 1.6rem;
     text-align: center;
-    margin-left: 2rem;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    padding-left: 1rem;
   }
   #menu li {
     margin-left: 1rem;
   }
-
+  #menu span {
+    position: absolute;
+    top: -4rem;
+    right: 0.2rem;
+    font-size: 1.3rem;
+    width: 25%;
+    margin: auto;
+    padding: 0.2rem;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+  }
+  #menu span a:hover {
+    letter-spacing: normal;
+    border-bottom: none;
+    font-size: 1.3rem;
+  }
   #nav-toggle-label {
     display: none;
+    border-bottom: 0;
   }
 
   /* banner */
 
   .banner-container div {
     height: 15rem;
-    width: 30rem;
+    width: fit-content;
     padding-top: 3rem;
   }
   .banner-container {
     height: 30rem;
+  }
+  .banner-container div {
+    height: 15rem;
+    width: 30rem;
+    margin-top: 8rem;
+    
   }
   .banner-container p {
     font-size: 2rem;
   }
   .banner-container h1 {
     font-size: 4rem;
+  }
+  .banner-container span{
+    font-size: 1.7rem;
   }
 
   main {
@@ -215,36 +247,51 @@ footer {
 
 @media screen and (min-width: 992px) {
   /* header */
-  
-  
-  #menu>li{
+
+  #menu > li {
     margin-left: 3rem;
     font-size: 1.7rem;
     text-align: center;
     margin: auto;
     padding: 1.5rem;
   }
-  #menu a:hover{
-    color:#76d4f3 ;
+  #menu a:hover {
+    color: #76d4f3;
     letter-spacing: 5px;
-    border-bottom: 2px solid #c6dfc4 ;
+    border-bottom: 2px solid #c6dfc4;
+  }
+  #menu span {
+    position: absolute;
+    top: -4rem;
+    right: 0.2rem;
+    font-size: 1.3rem;
+    width: 20%;
+    margin: auto;
+    padding: 0.2rem;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+  }
+  #menu span a:hover {
+    letter-spacing: normal;
+    border-bottom: none;
+    font-size: 1.3rem;
   }
 
-  .banner-container{
+  .banner-container {
     height: 60rem;
     outline: auto;
   }
-  .banner-container div{
+  .banner-container div {
     height: 20rem;
     width: 35rem;
     margin-top: 8rem;
     padding: ;
-    
   }
-  .banner-container h1{
+  .banner-container h1 {
     font-size: 7rem;
   }
-  .banner-container span{
+  .banner-container span {
     font-size: 2rem;
   }
 }
