@@ -177,7 +177,7 @@ footer {
   #menu {
     position: relative;
     display: flex;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     text-align: center;
     margin-left: 2rem;
   }
@@ -219,7 +219,7 @@ footer {
   
   #menu>li{
     margin-left: 3rem;
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-align: center;
     margin: auto;
     padding: 1.5rem;
