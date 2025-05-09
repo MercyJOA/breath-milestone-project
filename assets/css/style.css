@@ -94,7 +94,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #c6dfc4;
-  outline: auto;
+  outline: 5px solid red;
   padding: 2rem 0;
 }
 /*banner*/
@@ -113,7 +113,7 @@ main {
 .banner-container h1 {
   font-size: 3.5rem;
   font-family: Open Sans "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  text-shadow: 2px 2px 0px rgb(169, 214, 7), 5px 5px 0px rgb(54, 50, 50);
+  text-shadow: 2px 2px 0px rgb(169, 214, 7), 3px 3px 0px rgb(54, 50, 50);
 }
 .banner-container p {
   font-family: Unna serif;
@@ -215,6 +215,8 @@ footer {
 
 @media screen and (min-width: 992px) {
   /* header */
+  
+  
   #menu>li{
     margin-left: 3rem;
     font-size: 2rem;
@@ -226,5 +228,23 @@ footer {
     color:#76d4f3 ;
     letter-spacing: 5px;
     border-bottom: 2px solid #c6dfc4 ;
+  }
+
+  .banner-container{
+    height: 60rem;
+    outline: auto;
+  }
+  .banner-container div{
+    height: 20rem;
+    width: 35rem;
+    margin-top: 8rem;
+    padding: ;
+    
+  }
+  .banner-container h1{
+    font-size: 7rem;
+  }
+  .banner-container span{
+    font-size: 2rem;
   }
 }
