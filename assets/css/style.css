@@ -120,8 +120,8 @@ main {
   font-size: 1.5rem;
   font-weight: bold;
   letter-spacing: 6px;
-  color: #e4e70f;
-  text-shadow: 2px 2px 0px black;
+  color: #e6d815;
+  text-shadow: 1px 1px 0px black;
 }
 .banner-container span {
   color: #02394b;
@@ -135,10 +135,11 @@ main {
   background-color: rgba(255, 255, 255, 0.2);
   padding: 1rem;
   text-align: center;
-  width: 20rem;
+  width: fit-content;
   height: 10rem;
   border-radius: 5px;
   margin: auto;
+  white-space: no-wrap;
 }
 .banner-container button {
   height: 40px;
@@ -214,7 +215,7 @@ footer {
 
   /* banner */
 
-  .banner-container div {
+ .banner-container div {
     height: 15rem;
     width: fit-content;
     padding-top: 3rem;
@@ -222,17 +223,18 @@ footer {
   .banner-container {
     height: 30rem;
   }
+  /*
   .banner-container div {
     height: 15rem;
     width: 30rem;
     margin-top: 8rem;
     
-  }
+  }*/
   .banner-container p {
     font-size: 2rem;
   }
   .banner-container h1 {
-    font-size: 4rem;
+    font-size: 4.5rem;
   }
   .banner-container span{
     font-size: 1.7rem;
@@ -281,17 +283,25 @@ footer {
   .banner-container {
     height: 60rem;
     outline: auto;
+    padding-top: 15rem;
   }
   .banner-container div {
-    height: 20rem;
+    /*height: 20rem;
     width: 35rem;
-    margin-top: 8rem;
-    padding: ;
+    margin-top: 8rem;*/
+    height: 20rem;
+    width: fit-content;
+    padding-top: 4rem;
+    margin-top: 2rem;
+    
   }
   .banner-container h1 {
     font-size: 7rem;
   }
   .banner-container span {
     font-size: 2rem;
+  }
+  .banner-container button{
+    width: 200px;
   }
 }
