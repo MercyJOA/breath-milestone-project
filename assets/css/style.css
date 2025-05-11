@@ -172,7 +172,13 @@ main {
   height: 1em;
   width: 1em;
 }
-
+#holidays-container h2{
+font-weight: bold;
+}
+#holidays-container p{
+padding: 1.5rem;
+line-height: 20px;
+}
 /* footer */
 
 footer {
