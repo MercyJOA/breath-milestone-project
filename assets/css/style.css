@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* remove default style */
 * {
@@ -13,7 +14,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  
 }
 
 .icon {
@@ -157,17 +157,20 @@ main {
 }
 
 /* holidays */
-#holidays-container{
+
+#holidays-container {
   background-color: #f6fcf5;
   color: #01200a;
+  font-family: "Roboto", sans-serif;
+  padding: 1rem;
 }
-.holiday-image img{
+.holiday-image img {
   height: 5rem;
-  width:10rem ;
+  width: 10rem;
 }
-.rating img{
-  height:1em ;
-  width:1em ;
+.rating img {
+  height: 1em;
+  width: 1em;
 }
 
 /* footer */
@@ -229,7 +232,7 @@ footer {
 
   /* banner */
 
- .banner-container div {
+  .banner-container div {
     height: 15rem;
     width: fit-content;
     padding-top: 3rem;
@@ -250,7 +253,7 @@ footer {
   .banner-container h1 {
     font-size: 4.5rem;
   }
-  .banner-container span{
+  .banner-container span {
     font-size: 1.7rem;
   }
 
@@ -307,7 +310,6 @@ footer {
     width: fit-content;
     padding-top: 4rem;
     margin-top: 2rem;
-    
   }
   .banner-container h1 {
     font-size: 7rem;
@@ -315,7 +317,7 @@ footer {
   .banner-container span {
     font-size: 2rem;
   }
-  .banner-container button{
+  .banner-container button {
     width: 200px;
   }
 }
