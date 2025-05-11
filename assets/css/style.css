@@ -156,6 +156,20 @@ main {
   font-weight: bold;
 }
 
+/* holidays */
+#holidays-container{
+  background-color: #f6fcf5;
+  color: #01200a;
+}
+.holiday-image img{
+  height: 5rem;
+  width:10rem ;
+}
+.rating img{
+  height:1em ;
+  width:1em ;
+}
+
 /* footer */
 
 footer {
