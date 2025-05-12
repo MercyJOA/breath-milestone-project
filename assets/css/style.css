@@ -299,7 +299,7 @@ font-size: 1.2rem;
   gap: 3px;
   margin-top: 2rem;
   font-family:"Roboto", sans-serif; 
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
   font-style: italic;
   padding: 2rem;
@@ -309,6 +309,7 @@ font-size: 1.2rem;
 .hotels img{
   height: 20rem;
   width:20rem;
+  margin-top: 1rem;
 }
 
 /* footer */
