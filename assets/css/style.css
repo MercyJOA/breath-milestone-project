@@ -191,6 +191,7 @@ font-size: 1.3rem;
   font-size: 1.4rem;
   font-weight: bold;
   text-align: center;
+  margin-top: 1.5rem;
 }
 .holiday{
   display: flex;
@@ -212,8 +213,32 @@ font-size: 1.3rem;
   background-color: #ffffff;
   height: 30rem;
   width: 15.5rem; 
+  gap: 3px;
+  box-shadow: 5px 5px 5px lightgrey;
 }
-.img
+.img-caption,.rating,.holiday-cost,.holiday-box span{
+padding: 0.9rem;
+font-size: 1.2rem;
+
+}
+.holiday span{
+  color: #0880a8;
+  font-style: italic;
+  padding:  1rem 0;
+  line-height: 3px;
+  
+}
+.rating img{
+  background-color:  #000000;
+  border-radius: 3px;
+  
+  
+}
+.holiday-cost{
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color:#000000
+}
 /* footer */
 
 footer {
