@@ -167,7 +167,7 @@ main {
 }
 .holiday-image img {
   height: 15rem;
-  width: 15.5rem;
+  width: 20.5rem;
 }
 .rating img {
   height: 1em;
@@ -197,7 +197,7 @@ font-size: 1.3rem;
 .holiday{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 1rem;
   margin: 1rem;
@@ -213,7 +213,7 @@ font-size: 1.3rem;
   align-items:  baseline;
   background-color: #ffffff;
   height: 30rem;
-  width: 15.5rem; 
+  width: 20.5rem; 
   gap: 3px;
   box-shadow: 5px 5px 5px lightgrey;
 }
