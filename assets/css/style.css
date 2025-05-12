@@ -387,4 +387,7 @@ footer {
   .banner-container button {
     width: 200px;
   }
+  #holidays-container>p{
+    padding: 1rem 10rem;
+  }
 }
