@@ -111,13 +111,13 @@ main {
   text-align: center;
 }
 .banner-container h1 {
-  font-size: 3.5rem;
+  font-size: 3.4rem;
   font-family: Open Sans "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-shadow: 2px 2px 0px rgb(169, 214, 7), 3px 3px 0px rgb(54, 50, 50);
 }
 .banner-container p {
   font-family: Unna serif;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: bold;
   letter-spacing: 6px;
   color: #e6d815;
@@ -128,14 +128,15 @@ main {
   font-family: "Great Vibes", cursive;
   font-weight: bold;
   font-style: normal;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   text-shadow: none;
+  
 }
 .banner-container div {
   background-color: rgba(255, 255, 255, 0.2);
-  padding: 1rem;
+  padding: 0.5rem;
   text-align: center;
-  width: fit-content;
+  width: 100%;
   height: 10rem;
   border-radius: 5px;
   margin: auto;
