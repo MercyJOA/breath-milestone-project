@@ -94,7 +94,7 @@ main {
   min-height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #c6dfc4;
+  background-color:#1E2A1E;
   padding: 2rem 0;
 }
 /*banner*/
@@ -244,7 +244,49 @@ font-size: 1.2rem;
 #reasons-container{
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
   
+  padding: 1rem;
+  color: #ffffff;
+  margin-top: 3rem;
+  
+  font-size: 1.3rem;
+  font-family:"Playfair", serif; ;
+}
+.reasons-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  gap:16px;
+
+}
+.reasons-box img{
+  height:3rem ;
+  width:3rem ;
+  background-color: white;
+  
+
+  border-radius: 50%;
+  padding: 0.5rem;
+
+}
+
+.reasons{
+  height:15rem ;
+  width:100%;
+  margin-left: 1.5rem;
+}
+.reasons h4{
+  color: #FFE34D;
+  margin-bottom: 1rem;
+}
+#reasons-container h3{
+  color: #C3DEC3;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 2.5rem;
 }
 /* footer */
 
@@ -313,13 +355,7 @@ footer {
   .banner-container {
     height: 30rem;
   }
-  /*
-  .banner-container div {
-    height: 15rem;
-    width: 30rem;
-    margin-top: 8rem;
-    
-  }*/
+  
   .banner-container p {
     font-size: 2rem;
   }
@@ -332,6 +368,15 @@ footer {
 
   main {
     margin-top: 75px;
+  }
+  /* reasons */
+  .reasons{
+    height: 10rem;
+    width: 100%;
+  }
+  #reasons-container{
+    flex-direction: row;
+    padding: 0 10rem ;
   }
 }
 
@@ -369,7 +414,7 @@ footer {
     border-bottom: none;
     font-size: 1.3rem;
   }
-
+/* banner */
   .banner-container {
     height: 60rem;
     outline: auto;
@@ -393,7 +438,12 @@ footer {
   .banner-container button {
     width: 200px;
   }
+  /* holidays */
   #holidays-container>p{
     padding: 1rem 10rem;
+  }
+  /* reasons */
+  #reasons-container{
+    padding: 0 20rem;
   }
 }
