@@ -290,21 +290,32 @@ font-size: 1.2rem;
 }
 
 /* hotels */
+
 #hotels-container{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  background-color: #d3d3d3;
-  gap: 3px;
-  margin-top: 2rem;
+margin-top: 2rem;
   font-family:"Roboto", sans-serif; 
   font-size: 1.2rem;
   font-weight: bold;
   font-style: italic;
   padding: 2rem;
+   background-color: #d3d3d3;
+}
+.hotels-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+
+  
   
 
+}
+#hotels-container h3{
+  font-size: 2.5rem;
+  font-weight: bolder;
+  font-style: normal;
+  text-align: center;
 }
 .hotels img{
   height: 20rem;
