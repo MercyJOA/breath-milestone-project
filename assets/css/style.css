@@ -327,8 +327,8 @@ main {
 }
   
 .address{
-  padding: 2rem;
-  line-height: 3rem;
+  padding:2rem 2rem ;
+  line-height: 2rem;
   letter-spacing: 3px;
   text-align: right;
   display: flex;
@@ -337,35 +337,41 @@ main {
   justify-content: space-around;
   align-items: flex-start;
 }
+
+
 .address h4{
 text-align: center;
 color: #fff8dc;
+
 }
 .address span{
   text-align: left;
   font-style: italic;
+  
 }
 .times{
   align-self: center;
   font-weight: bold;
   font-size: 1.3rem;
   margin-top: 1rem;
+  
 }
 .address table{
   align-self: center;
   margin: 1rem;
   padding: 1rem;
-  
-
-}
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  }
 .address td{
   text-align: left;
   padding: 1.2rem;
   border-bottom: 1px solid#ffe34d;
+  font-size: 1.2rem;
 
 }
 .address tr{
-  border-bottom: 1px solid#ffe34d;
+
 
 }
 .address th{
@@ -509,9 +515,6 @@ footer {
     padding-top: 15rem;
   }
   .banner-container div {
-    /*height: 20rem;
-    width: 35rem;
-    margin-top: 8rem;*/
     height: 20rem;
     width: fit-content;
     padding-top: 4rem;
@@ -533,5 +536,9 @@ footer {
   /* reasons */
   #reasons-container {
     padding: 0 20rem;
+  }
+  /* adress */
+  .address{
+    padding: 5rem 15rem;
   }
 }
