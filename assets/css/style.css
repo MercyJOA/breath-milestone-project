@@ -370,16 +370,16 @@ color: #fff8dc;
   font-size: 1.2rem;
 
 }
-.address tr{
-
-
-}
 .address th{
   text-align: left;
   color: #76d4f3;
   font-weight: bold;
   padding: 1.2rem;
   font-size: larger;
+}
+/* contact container */
+#contact-container{
+  background-color: #ffffff;
 }
 
 /* footer */
