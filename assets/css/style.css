@@ -103,7 +103,6 @@ main {
   background-image: url(../images/joshua-tsu-ifHBo0TTuBI-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top 50px;
   background-color: #c6dfc4;
   padding: 0 0.5rem;
   height: 25rem;
@@ -381,6 +380,15 @@ color: #fff8dc;
 /* contact container */
 #contact-container{
   background-color: #ffffff;
+}
+
+.contact img{
+  height:1.5rem ;
+  width:1.5rem ;
+}
+.social-media img{
+  height:2.5rem ;
+  width:2.5rem ;
 }
 
 /* footer */
