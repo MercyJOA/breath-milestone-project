@@ -380,6 +380,12 @@ color: #fff8dc;
 /* contact container */
 #contact-container{
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  gap: 5rem;
 }
 
 .contact img{
@@ -389,6 +395,12 @@ color: #fff8dc;
 .social-media img{
   height:2.5rem ;
   width:2.5rem ;
+}
+.call,.email{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 /* footer */
