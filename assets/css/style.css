@@ -433,12 +433,12 @@ footer {
   background-color: rgb(101, 109, 101);
   color: #ffffff;
   font-family: unna serif;
-  font-size: 1.5rem;
-  margin-top: 0rem;
+  font-size: 1.2rem;
+  margin:;
   text-align: center;
-  height: 10rem;
-  padding: 5rem;
-  position: sticky;
+  height: 3rem;
+  padding:   2rem 0;
+  position: relative;
   bottom: 0;
 }
 
