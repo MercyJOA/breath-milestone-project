@@ -420,7 +420,7 @@ display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
 align-items: center;
-gap: 1rem;
+gap: 5rem;
 padding: 5rem 3rem;
 text-align: center;
 }
@@ -587,5 +587,18 @@ footer {
   /* adress */
   .address{
     padding: 5rem 15rem;
+  }
+  /* contact */
+  .contact{
+    padding-left: 15rem;
+  }
+  .contact a:hover{
+color: orangered;
+  }
+  .social-media-paragraph a:hover{
+    color: #0880a8;
+    border-bottom: 1px solid #066585;;
+    height: 5rem;
+    
   }
 }
