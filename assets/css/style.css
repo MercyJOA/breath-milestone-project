@@ -491,6 +491,21 @@ padding-left: 1rem;
 #reviews-container .rating{
   padding: 0;
 }
+form{
+  height: 60%;
+  width: 70%;
+  background-color: #ffffff;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  gap: 10rem;
+  
+}
+#sign-up-content{
+   background-image: linear-gradient(to right top, #073b09, #06320c, #07280d, #08200c, #041709, #041708, #031608, #031607, #071e09, #092608, #0b2e06, #0e3601);}
 
 /* media query for tablets*/
 
@@ -679,4 +694,5 @@ padding-left: 1rem;
   .icon{
     height: 5rem;
     width: 5rem;
+}
 }
