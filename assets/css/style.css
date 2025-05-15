@@ -492,21 +492,59 @@ padding-left: 1rem;
   padding: 0;
 }
 form{
-  height: 60%;
-  width: 70%;
   background-color: #ffffff;
-  display:flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
-  margin: auto;
-  gap: 10rem;
-  
+  margin: 3rem;
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+form h2{
+  padding: 1rem;
+  font-weight: bold;
+}
+.light-grey{
+  color: rgb(75, 74, 74);
+  font-style: italic;
 }
 #sign-up-content{
-   background-image: linear-gradient(to right top, #073b09, #06320c, #07280d, #08200c, #041709, #041708, #031608, #031607, #071e09, #092608, #0b2e06, #0e3601);}
-
+   background-image: linear-gradient(to right top, #073b09, #06320c, #07280d, #08200c, #041709, #041708, #031608, #031607, #071e09, #092608, #0b2e06, #0e3601);
+  font-family: "Merriweather", serif;
+  font-size: 1rem; 
+}
+.sign-up-container input{
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content:center;
+  align-items: center;
+  padding: 1rem;
+  width: 80%;
+  margin:1rem;
+  border-radius: 4px;
+  border: 1px solid rgb(155, 162, 168);
+  flex-shrink: inherit;
+  }
+  input::placeholder{
+    font-family: 1.2rem;
+    text-align: left;
+    font-weight: 700;
+    font-family: "Merriweather", serif;
+  }
+  input[type="submit"]{
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #1785df;
+    color: #ffffff;
+    border-radius: 4px;
+    font-family: "Merriweather", serif;
+    font-size: 1.2rem;
+    letter-spacing: 4px;
+    border: 1px solid #1785df;
+  }
+  .sign-in-link a{
+padding-left: 3px;
+text-decoration: none;
+color: #1785df;
+  }
 /* media query for tablets*/
 
 @media screen and (min-width: 768px) {
