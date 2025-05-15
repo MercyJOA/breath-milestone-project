@@ -601,9 +601,7 @@ footer {
   .contact a:hover {
     color: orangered;
   }
-  .social-media-paragraph a:hover {
+  .social-media a:hover {
     color: #0880a8;
-    border-bottom: 1px solid #066585;
-    height: 5rem;
   }
 }
