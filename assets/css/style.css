@@ -487,10 +487,10 @@ footer ul{
   justify-content: flex-start;
   align-items: flex-start;
   gap: 5rem;
+  margin-bottom: 5rem;
 }
 .reviewers p{
 font-weight: bold;
-padding: 1rem 0;
 }
 .reviewers span{
   font-weight: lighter;
@@ -506,14 +506,15 @@ padding-left: 1rem;
 #reviews-container h2{
   text-align: center;
   font-weight: bold;
-  color: #89b689;
+  color: #344734;
   padding: 1em;
   font-size: 1.5rem;
 }
 #reviews-container .rating{
   padding: 0;
 }
-.
+  
+
 form{
   background-color: #ffffff;
   margin: 3rem;
