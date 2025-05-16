@@ -7,6 +7,8 @@
   margin: 0;
   box-sizing: border-box;
 }
+/* html */
+html{scroll-behavior: smooth;}
 
 /* body */
 
@@ -243,6 +245,9 @@ main {
 .rating img {
   background-color: #000000;
   border-radius: 3px;
+}
+.rating a{
+  text-decoration: none;
 }
 .holiday-cost {
   font-weight: bolder;
