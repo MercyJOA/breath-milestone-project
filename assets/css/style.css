@@ -249,6 +249,9 @@ main {
 .rating a{
   text-decoration: none;
 }
+.rating p a{
+  color:rgb(75, 74, 74) ;
+}
 .holiday-cost {
   font-weight: bolder;
   font-size: 1.5rem;
@@ -442,16 +445,35 @@ main {
 /* footer */
 
 footer {
-  background-color: rgb(101, 109, 101);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(63, 68, 63);
   color: #ffffff;
   font-family: unna serif;
   font-size: 1.2rem;
   text-align: center;
-  height: 3rem;
-  padding:   2rem 0;
-  position: relative;
-  bottom: 0;
+  height: fit-content;
+  padding:   1rem 0.5rem;
+  letter-spacing: 2px;
+
+  
 }
+footer a{
+  text-decoration: none;
+  color: #0dc545;
+}
+footer ul{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+  padding-bottom: 1rem;
+  gap: 1rem;
+
+}
+/* reviews */
 #reviews-container{
   background-color: #ffffff;
   color: #000000;
@@ -491,6 +513,7 @@ padding-left: 1rem;
 #reviews-container .rating{
   padding: 0;
 }
+.
 form{
   background-color: #ffffff;
   margin: 3rem;
@@ -729,6 +752,10 @@ color: #1785df;
     font-size: 1.7rem;
 
   }
+  .rating p a:hover{
+    border-bottom: 2px solid  rgb(75, 74, 74);
+  }
+  /* icon */
   .icon{
     height: 5rem;
     width: 5rem;
