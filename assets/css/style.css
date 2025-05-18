@@ -534,11 +534,11 @@ form h2{
   font-family: "Merriweather", serif;
   font-size: 1rem; 
 }
-.sign-up-container{
+.sign-up-container, .sign-in-container{
   text-align: left;
   padding:1rem;
 }
-.sign-up-container input{
+.sign-up-container input, .sign-in-container input{
   flex-wrap: nowrap;
   justify-content:flex-start;
   align-items: flex-start;
@@ -572,17 +572,24 @@ form h2{
     letter-spacing: 4px;
     border: 1px solid #1785df;
   }
-  .sign-in-link{
+  .sign-in-link, .sign-up-link{
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     gap: 3px;
   }
-  .sign-in-link a{
+  .sign-in-link a, .sign-up-link a{
 padding-left: 5px;
 text-decoration: none;
 color: #1785df;
+  }
+  .sign-up-container fieldset{
+    border: 2px solid  #1785df;
+    height: 5rem;
+  }
+  fieldset input{
+    border: none;
   }
 /* media query for tablets*/
 
