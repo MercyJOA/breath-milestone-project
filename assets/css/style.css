@@ -517,7 +517,7 @@ padding-left: 1rem;
 
 form{
   background-color: #ffffff;
-  margin: 3rem;
+  margin: 5rem 2rem;
   text-align: center;
   padding-bottom: 1.5rem;
 }
@@ -534,28 +534,36 @@ form h2{
   font-family: "Merriweather", serif;
   font-size: 1rem; 
 }
+.sign-up-container{
+  text-align: left;
+  padding:1rem;
+}
 .sign-up-container input{
-  flex-direction: column;
   flex-wrap: nowrap;
-  justify-content:center;
-  align-items: center;
-  padding: 1rem;
-  width: 80%;
-  margin:1rem;
+  justify-content:flex-start;
+  align-items: flex-start;
+  padding: 0.8rem 0;
+  width: 100%;
+  margin:1rem 0;
   border-radius: 4px;
   border: 1px solid rgb(155, 162, 168);
   flex-shrink: inherit;
   }
+  .sign-up-container label{
+    text-align: left;
+    padding:  2rem 0;
+  }
   input::placeholder{
+    padding: 1rem;
     font-family: 1.2rem;
     text-align: left;
-    font-weight: 700;
+    font-weight: 400;
     font-family: "Merriweather", serif;
   }
   input[type="submit"]{
-    width: 80%;
-    margin: 1rem;
-    padding: 1rem;
+    width: 90%;
+    margin: 1rem ;
+    padding: 0.8rem 0;
     background-color: #1785df;
     color: #ffffff;
     border-radius: 4px;
@@ -564,8 +572,15 @@ form h2{
     letter-spacing: 4px;
     border: 1px solid #1785df;
   }
+  .sign-in-link{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+  }
   .sign-in-link a{
-padding-left: 3px;
+padding-left: 5px;
 text-decoration: none;
 color: #1785df;
   }
