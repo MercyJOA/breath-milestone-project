@@ -330,7 +330,6 @@ main {
   width: 20rem;
   margin-top: 1rem;
 }
-
 /* contacts */
 
 #address-container {
@@ -340,6 +339,7 @@ main {
   background-image: url(../images/fabian-moller-gI7zgb80QWY-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .address {
