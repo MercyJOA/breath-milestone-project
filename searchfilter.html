@@ -24,11 +24,13 @@
     />
 </head>
 <body>
-    <main>
+    <main id="filter-content">
         <div id="filter">
           <input type="text" name="destination" placeholder="Destinations">
+          <div>
           <label for="date">Date</label>
           <input type="date" name="date" id="date">
+          </div>
           <input  list="airport" name="airport" placeholder="Select airports">
 				<datalist id="airport">
 					<option value="Hearthrow airport">
@@ -37,6 +39,7 @@
 					<option value="stanstead airport">
 					<option value="mancheaster airport">
 				</datalist>
+        <div>
           <label for="nights">Nights</label>
 		<select id="nights" name="nights" required>
 			<option value="1-night">1 night</option>
@@ -46,8 +49,11 @@
 			<option value="50s">5 nights</option>
 			<option value="60+">6+ nights</option>
 		</select>
+  </div>
+    <div class="guest-div">
     	<label for="guests">How many guests?</label>
 				<input id="guests" list="guest" name="guests" required>
+        </div>
 				<datalist id="guest">
 					<option value="1 guest">
 					<option value="2 guests, 1room">
@@ -55,7 +61,9 @@
 					<option value="4 guest, 2rooms">
 					<option value="5+ guest">
 				</datalist>
+        <a href="index.html#holidays-container"><button type="submit">Search</button></a>
         </div>
+        <button type="submit">Search</button>
     </main>
     <!--footer-->
     <footer>
