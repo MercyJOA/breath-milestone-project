@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--meta tags for search engines-->
+    <meta
+      name="description"
+      content="Breath. Holiday in nature all around the world.  Company based in Essex, England, united kingdom"
+    />
+    <meta
+      name="keywords"
+      content="breath, holiday, nature, getaway, wild, adventure, relaxation, mental-well being, spa holiday"
+    />
+    <!--title-->
+    <title>Breath</title>
+    <!--style.css links-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="icon"
+      type="image/jpg"
+      href="assets/images/landscape (2).jpg "
+      class="icon"
+    />
+</head>
+<body>
+    <main>
+        <div id="filter">
+          <input type="text" name="destination" placeholder="Destinations">
+          <label for="date">Date</label>
+          <input type="date" name="date" id="date">
+          <input  list="airport" name="airport" placeholder="Select airports">
+				<datalist id="airport">
+					<option value="Hearthrow airport">
+					<option value="London city airport">
+					<option value="gatwick airport">
+					<option value="stanstead airport">
+					<option value="mancheaster airport">
+				</datalist>
+          <label for="nights">Nights</label>
+		<select id="nights" name="nights" required>
+			<option value="1-night">1 night</option>
+			<option value="2-night">2 nights</option>
+			<option value="30s">3 nights</option>
+			<option value="40s">4 nights</option>
+			<option value="50s">5 nights</option>
+			<option value="60+">6+ nights</option>
+		</select>
+    	<label for="guests">How many guests?</label>
+				<input id="guests" list="guest" name="guests" required>
+				<datalist id="guest">
+					<option value="1 guest">
+					<option value="2 guests, 1room">
+					<option value="3 guests, 2rooms">
+					<option value="4 guest, 2rooms">
+					<option value="5+ guest">
+				</datalist>
+        </div>
+    </main>
+    <!--footer-->
+    <footer>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="reviews.html">Review</a></li>
+        <li><a href="signup.html">sign up</a></li>
+        <li><a href="index.html#contact-container">contacts</a></li>
+      </ul>
+      <p>@copyright 2025 Breath holidays in nature</p>
+    </footer>
+    <!--font awesome kit-->
+    <script
+      src="https://kit.fontawesome.com/00cb0a12fd.js"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
