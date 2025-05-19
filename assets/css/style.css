@@ -8,7 +8,9 @@
   box-sizing: border-box;
 }
 /* html */
-html{scroll-behavior: smooth;}
+html {
+  scroll-behavior: smooth;
+}
 
 /* body */
 
@@ -67,12 +69,11 @@ header a {
   display: inline-block;
   vertical-align: middle;
 }
-#logo em{
+#logo em {
   color: whitesmoke;
   font-size: 1rem;
-  font-family:  "Playfair", serif;
+  font-family: "Playfair", serif;
   text-shadow: 0.3px 0.3px 0px rgb(188, 240, 3), 3px 3px 0px rgb(54, 50, 50);
-
 }
 /* nav */
 nav {
@@ -158,12 +159,12 @@ main {
 }
 .banner-container button {
   height: 40px;
-  width: 150px;
+  width: 15rem;
   color: #a6eb31;
   background-color: #084702;
   border: none;
   border-radius: 5px;
-  margin-top:2rem;
+  margin-top: 2rem;
   font-size: 1.2rem;
   font-family: Roboto, sans-serif Oxygen, Ubuntu, Cantarell, "Open Sans",
     sans-serif, serif;
@@ -246,11 +247,11 @@ main {
   background-color: #000000;
   border-radius: 3px;
 }
-.rating a{
+.rating a {
   text-decoration: none;
 }
-.rating p a{
-  color:rgb(75, 74, 74) ;
+.rating p a {
+  color: rgb(75, 74, 74);
 }
 .holiday-cost {
   font-weight: bolder;
@@ -268,8 +269,6 @@ main {
   color: #ffffff;
   font-size: 1.3rem;
   font-family: "Playfair", serif;
-  
-
 }
 .reasons-box {
   display: flex;
@@ -329,6 +328,7 @@ main {
   height: 20rem;
   width: 20rem;
   margin-top: 1rem;
+  border-radius: 5px;
 }
 /* contacts */
 
@@ -436,7 +436,7 @@ main {
   gap: 3rem;
   padding: 5rem 1rem;
   text-align: center;
-  }
+}
 .social-media a {
   text-decoration: none;
   color: #000000;
@@ -455,29 +455,26 @@ footer {
   font-size: 1.2rem;
   text-align: center;
   height: fit-content;
-  padding:   1rem 0.5rem;
+  padding: 1rem 0.5rem;
   letter-spacing: 2px;
-
-  
 }
-footer a{
+footer a {
   text-decoration: none;
   color: #0dc545;
 }
-footer ul{
+footer ul {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   list-style-type: none;
   padding-bottom: 1rem;
   gap: 1rem;
-
 }
 /* reviews */
-#reviews-container{
+#reviews-container {
   background-color: #ffffff;
   color: #000000;
-  font-family:  "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
   padding: 1rem 2rem;
   width: 100%;
@@ -489,108 +486,201 @@ footer ul{
   gap: 5rem;
   margin-bottom: 5rem;
 }
-.reviewers p{
-font-weight: bold;
+.reviewers p {
+  font-weight: bold;
 }
-.reviewers span{
+.reviewers span {
   font-weight: lighter;
   color: #818080;
   font-style: italic;
-padding-left: 1rem;
+  padding-left: 1rem;
 }
-.reviewers img{
+.reviewers img {
   height: 5rem;
   width: 5rem;
   border-radius: 50%;
 }
-#reviews-container h2{
+#reviews-container h2 {
   text-align: center;
   font-weight: bold;
   color: #344734;
   padding: 1em;
   font-size: 1.5rem;
 }
-#reviews-container .rating{
+#reviews-container .rating {
   padding: 0;
 }
-  
 
-form{
+form {
   background-color: #ffffff;
-  margin: 5rem 2rem;
+  margin: auto;
   text-align: center;
   padding-bottom: 1.5rem;
+  border-radius: 5px;
+  max-width: 25rem;
+  width: 90%;
+  height: 90%;
+  margin-top: 5rem;
 }
-form h2{
+form h2 {
   padding: 1rem;
   font-weight: bold;
 }
-.light-grey{
+.light-grey {
   color: rgb(75, 74, 74);
   font-style: italic;
 }
-#sign-up-content{
-   background-image: linear-gradient(to right top, #073b09, #06320c, #07280d, #08200c, #041709, #041708, #031608, #031607, #071e09, #092608, #0b2e06, #0e3601);
+#sign-up-content,
+#sign-in-content {
+  background-image: linear-gradient(
+    to right top,
+    #073b09,
+    #06320c,
+    #07280d,
+    #08200c,
+    #041709,
+    #041708,
+    #031608,
+    #031607,
+    #071e09,
+    #092608,
+    #0b2e06,
+    #0e3601
+  );
   font-family: "Merriweather", serif;
-  font-size: 1rem; 
+
+  font-size: 1rem;
 }
-.sign-up-container, .sign-in-container{
+.sign-up-container,
+.sign-in-container {
   text-align: left;
-  padding:1rem;
+  padding: 1rem;
 }
-.sign-up-container input, .sign-in-container input{
+.sign-up-container input,
+.sign-in-container input {
   flex-wrap: nowrap;
-  justify-content:flex-start;
+  justify-content: flex-start;
   align-items: flex-start;
   padding: 0.8rem 0;
   width: 100%;
-  margin:1rem 0;
+  margin: 1rem 0;
   border-radius: 4px;
   border: 1px solid rgb(155, 162, 168);
   flex-shrink: inherit;
-  }
-  .sign-up-container label{
-    text-align: left;
-    padding:  2rem 0;
-  }
-  input::placeholder{
-    padding: 1rem;
-    font-family: 1.2rem;
-    text-align: left;
-    font-weight: 400;
-    font-family: "Merriweather", serif;
-  }
-  input[type="submit"]{
-    width: 90%;
-    margin: 1rem ;
-    padding: 0.8rem 0;
-    background-color: #1785df;
-    color: #ffffff;
-    border-radius: 4px;
-    font-family: "Merriweather", serif;
-    font-size: 1.2rem;
-    letter-spacing: 4px;
-    border: 1px solid #1785df;
-  }
-  .sign-in-link, .sign-up-link{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    gap: 3px;
-  }
-  .sign-in-link a, .sign-up-link a{
-padding-left: 5px;
-text-decoration: none;
-color: #1785df;
-  }
-  .sign-up-container fieldset{
-    border: 2px solid  #1785df;
-    height: 5rem;
-  }
-  fieldset input{
-    border: none;
-  }
+}
+.sign-up-container label {
+  text-align: left;
+  padding: 2rem 0;
+}
+input::placeholder {
+  padding: 1rem;
+  font-family: 1.2rem;
+  text-align: left;
+  font-weight: 400;
+  font-family: "Merriweather", serif;
+}
+input[type="submit"] {
+  width: 90%;
+  margin: 1rem;
+  padding: 0.8rem 0;
+  background-color: #1785df;
+  color: #ffffff;
+  border-radius: 4px;
+  font-family: "Merriweather", serif;
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  border: 1px solid #1785df;
+}
+.sign-in-link,
+.sign-up-link {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+.sign-in-link a,
+.sign-up-link a {
+  padding-left: 5px;
+  text-decoration: none;
+  color: #1785df;
+}
+.signin-name fieldset {
+  border: 1px solid #1785df;
+  border-radius: 5px;
+  margin: 0;
+  height: 4rem;
+  box-shadow: none;
+}
+.signin-name legend {
+  font-size: 1rem;
+  padding-left: 2px;
+}
+.signin-name input[type="text"] {
+  border: none;
+  margin-top: -0.3rem;
+  font-size: 1em;
+  outline: none;
+}
+.change-color {
+  color: #e0c008;
+}
+#sign-in-content form {
+  height: 50%;
+  margin-top: 10%;
+}
+#filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  width: 100%;
+  padding: 2rem;
+  margin: auto;
+  gap: 15px;
+  max-height: 40rem;
+  height: 80%;
+  max-width: 25rem;
+  
+  
+}
+#filter input,
+#filter label,
+datalist,
+select {
+  padding: 0.5rem 0.3rem;
+  border-radius: 5px;
+  width: 100%;
+  font-family: "Roboto" serif;
+  font-size: 1rem;
+}
+.guest-div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+#filter label{
+ font-family: "Roboto" serif;
+  font-size: 1.2rem; 
+}
+#filter button{
+  height: 40px;
+  width: 18rem;
+  color: #a6eb31;
+  background-color: #084702;
+  border: none;
+  border-radius: 5px;
+  margin-top:0 2rem;
+  font-size: 1.2rem;
+  font-family: Roboto, sans-serif Oxygen, Ubuntu, Cantarell, "Open Sans",
+    sans-serif, serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+#filter-content{
+  background-image: url(../images/joshua-tsu-ifHBo0TTuBI-unsplash.jpg);
+}
 /* media query for tablets*/
 
 @media screen and (min-width: 768px) {
@@ -676,14 +766,14 @@ color: #1785df;
     padding: 0 10rem;
   }
   /* review container */
-  #reviews-container{
+  #reviews-container {
     padding: 0 8rem;
   }
-  #reviews-container h2{
+  #reviews-container h2 {
     padding-top: 2rem;
     font-size: 1.7rem;
   }
-  .icon{
+  .icon {
     height: 5rem;
     width: 5rem;
   }
@@ -742,7 +832,7 @@ color: #1785df;
     font-size: 2rem;
   }
   .banner-container button {
-    width: 200px;
+    width: 20rem;
   }
   /* holidays */
   #holidays-container > p {
@@ -767,20 +857,19 @@ color: #1785df;
     color: #0880a8;
   }
   /* review container */
-  #reviews-container{
+  #reviews-container {
     padding: 0 20rem;
   }
-  #reviews-container h2{
+  #reviews-container h2 {
     padding-top: 5rem;
     font-size: 1.7rem;
-
   }
-  .rating p a:hover{
-    border-bottom: 2px solid  rgb(75, 74, 74);
+  .rating p a:hover {
+    border-bottom: 2px solid rgb(75, 74, 74);
   }
   /* icon */
-  .icon{
+  .icon {
     height: 5rem;
     width: 5rem;
-}
+  }
 }
