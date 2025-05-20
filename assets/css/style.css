@@ -15,8 +15,8 @@ html {
 /* body */
 
 body {
-  min-height: 100vh;
-  min-width: 100vw;
+  min-height: 100dvh;
+  min-width: 100dvw;
   display: flex;
   flex-direction: column;
 }
@@ -115,7 +115,6 @@ main {
   background-size: cover;
   background-color: #c6dfc4;
   padding: 0 0.5rem;
-  height: 25rem;
   width: 100%;
   padding-top: 3rem;
   text-align: center;
@@ -127,7 +126,7 @@ main {
   align-items: center;
 }
 .banner-container h1 {
-  font-size: 3.4rem;
+  font-size: 2.4rem;
   font-family: Open Sans , Tahoma, Geneva, Verdana, sans-serif;
   text-shadow: 2px 2px 0px rgb(169, 214, 7), 3px 3px 0px rgb(54, 50, 50);
 }
@@ -152,7 +151,6 @@ main {
   padding: 0.5rem;
   text-align: center;
   width: 100%;
-  height: 10rem;
   border-radius: 5px;
   margin: auto;
 }
@@ -335,7 +333,7 @@ main {
   color: white;
   font-family: "Merriweather", serif;
   font-size: 1rem;
-  background-image: url(../images/fabian-moller-gI7zgb80QWY-unsplash.jpg);
+  background-image: url(../images/contact-background-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -459,7 +457,7 @@ footer {
 }
 footer a {
   text-decoration: none;
-  color: #0dc545;
+  color: #7ae2f5;
 }
 footer ul {
   display: flex;
@@ -661,6 +659,7 @@ select {
 #filter label{
  font-family: "Roboto", sans-serif;
   font-size: 1.2rem; 
+  color: #023242;
 }
 #filter button{
   height: 40px;
@@ -677,7 +676,9 @@ select {
   text-align: center;
 }
 #filter-content{
-  background-image: url(../images/joshua-tsu-ifHBo0TTuBI-unsplash.jpg);
+  background-image: url(../images/wing-in-the-air-unsplash.jpg);
+  background-size: cover;
+  background-position: top 10%;
 }
 /* media query for tablets*/
 
