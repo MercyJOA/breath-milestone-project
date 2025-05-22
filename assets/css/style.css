@@ -124,6 +124,7 @@ main {
   flex-shrink: 2;
   justify-content: space-around;
   align-items: center;
+  min-height: 50vh;
 }
 .banner-container h1 {
   font-size: 2.4rem;
@@ -148,24 +149,26 @@ main {
 }
 .banner-container div {
   background-color: rgba(255, 255, 255, 0.2);
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
   text-align: center;
   width: 100%;
   border-radius: 5px;
-  margin: auto;
+  margin-bottom:8rem;
 }
 .banner-container button {
   height: 40px;
-  width: 15rem;
+  width: 10rem;
   color: #a6eb31;
   background-color: #084702;
   border: none;
   border-radius: 5px;
-  margin-top: 2rem;
+  margin-top: 5rem;
   font-size: 1.2rem;
   font-family: "Roboto", sans-serif Oxygen, Ubuntu, Cantarell, "Open Sans",
     sans-serif, serif;
   text-transform: uppercase;
+  
+  
 }
 
 /* holidays */
@@ -558,12 +561,14 @@ form h2 {
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 0.8rem 0;
+  padding: 0.8rem 1rem;
   width: 100%;
   margin: 1rem 0;
   border-radius: 4px;
   border: 1px solid rgb(155, 162, 168);
   flex-shrink: inherit;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
 }
 .sign-up-container label {
   text-align: left;
@@ -574,6 +579,7 @@ input::placeholder {
   text-align: left;
   font-weight: 400;
   font-family: "Merriweather", serif;
+  font-size: 0.8rem;
 }
 input[type="submit"] {
   width: 90%;
@@ -602,15 +608,14 @@ input[type="submit"] {
   color: #1785df;
 }
 .signin-name fieldset {
-  border: 1px solid #1785df;
+  border: 2px solid #1785df;
   border-radius: 5px;
   margin: 0;
   height: 4rem;
-  box-shadow: none;
 }
 .signin-name legend {
-  font-size: 1rem;
-  padding-left: 2px;
+  font-size: 1.1rem;
+  margin-left: 1rem;
 }
 .signin-name input[type="text"] {
   border: none;
@@ -622,8 +627,8 @@ input[type="submit"] {
   color: #e0c008;
 }
 #sign-in-content form {
-  height: 50%;
-  margin-top: 10%;
+  height: 70%;
+  margin-top: 20%;
 }
 #filter {
   display: flex;
@@ -741,12 +746,12 @@ button a{
   .banner-container div {
     height: 15rem;
     width: fit-content;
-    padding-top: 3rem;
+    padding-top: 1rem;
+    margin-top: 1.5rem;
   }
   .banner-container {
     height: 30rem;
   }
-
   .banner-container p {
     font-size: 2rem;
   }
@@ -819,15 +824,13 @@ button a{
   }
   /* banner */
   .banner-container {
-    height: 60rem;
-    outline: auto;
-    padding-top: 15rem;
+    height: 100vh; 
   }
   .banner-container div {
     height: 20rem;
     width: fit-content;
-    padding-top: 4rem;
-    margin-top: 2rem;
+    padding-top: 2rem;
+    margin-top: 0em;
   }
   .banner-container h1 {
     font-size: 7rem;
@@ -836,6 +839,7 @@ button a{
     font-size: 2rem;
   }
   .banner-container button {
+    margin-top: 5rem;
     width: 20rem;
   }
   /* holidays */
