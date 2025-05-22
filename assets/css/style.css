@@ -761,7 +761,9 @@ button a{
   .banner-container span {
     font-size: 1.7rem;
   }
-
+.banner-container button{
+  margin-top: 2.5rem;
+}
   main {
     margin-top: 75px;
   }
