@@ -15,8 +15,8 @@ html {
 /* body */
 
 body {
-  min-height: 100dvh;
-  min-width: 100dvw;
+  min-height: 100vh;
+  min-width: 100vw;
   display: flex;
   flex-direction: column;
 }
@@ -114,7 +114,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #c6dfc4;
-  padding: 0 0.5rem;
+  padding: 0 ;
   width: 100%;
   padding-top: 3rem;
   text-align: center;
@@ -135,7 +135,7 @@ main {
   font-family: "Unna", serif;
   font-size: 1.4rem;
   font-weight: bold;
-  letter-spacing: 6px;
+  letter-spacing: 4px;
   color: #e6d815;
   text-shadow: 1px 1px 0px black;
 }
@@ -149,9 +149,9 @@ main {
 }
 .banner-container div {
   background-color: rgba(255, 255, 255, 0.2);
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0rem;
   text-align: center;
-  width: 100%;
+  width: 90%;
   border-radius: 5px;
   margin-bottom:8rem;
 }
@@ -308,7 +308,7 @@ main {
   font-size: 1.2rem;
   font-weight: bold;
   font-style: italic;
-  padding: 2rem 0;
+  padding: 1rem 0;
   background-color: #d3d3d3;
 }
 .hotels-box {
@@ -343,7 +343,7 @@ main {
 }
 
 .address {
-  padding: 2rem 1rem;
+  padding: 1rem;
   line-height: 2rem;
   letter-spacing: 3px;
   text-align: right;
@@ -572,7 +572,7 @@ form h2 {
 }
 .sign-up-container label {
   text-align: left;
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 input::placeholder {
   padding: 1rem;
@@ -637,7 +637,7 @@ input[type="submit"] {
   align-items: flex-start;
   flex-wrap: nowrap;
   width: 100%;
-  padding: 2rem;
+  padding: 1rem;
   margin: auto;
   gap: 15px;
   max-height: 40rem;
@@ -854,7 +854,7 @@ button a{
   }
   /* adress */
   .address {
-    padding: 5rem 15rem;
+    padding: 2rem 15rem;
   }
   /* contact */
   .contact {
