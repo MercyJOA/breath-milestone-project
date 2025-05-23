@@ -18,9 +18,7 @@ body {
   min-height: 100vh;
   min-width: 100vw;
   display: flex;
-  flex-direction: column;
-  overflow-x: hidden;
-  
+  flex-direction: column; 
 }
 
 .icon {
@@ -117,7 +115,6 @@ main {
   background-size: cover;
   background-color: #c6dfc4;
   padding: 0 ;
-  min-width: 100vw;
   padding-top: 1rem;
   text-align: center;
   display: flex;
