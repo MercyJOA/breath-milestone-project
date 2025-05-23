@@ -19,6 +19,7 @@ body {
   min-width: 100vw;
   display: flex;
   flex-direction: column;
+  
 }
 
 .icon {
@@ -116,15 +117,16 @@ main {
   background-color: #c6dfc4;
   padding: 0 ;
   width: 100%;
-  padding-top: 3rem;
+  padding-top: 1rem;
   text-align: center;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   flex-shrink: 2;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   min-height: 50vh;
+  
 }
 .banner-container h1 {
   font-size: 2.4rem;
@@ -135,7 +137,7 @@ main {
   font-family: "Unna", serif;
   font-size: 1.4rem;
   font-weight: bold;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   color: #e6d815;
   text-shadow: 1px 1px 0px black;
 }
@@ -149,11 +151,12 @@ main {
 }
 .banner-container div {
   background-color: rgba(255, 255, 255, 0.2);
-  padding: 0.5rem 0rem;
+  padding:  1rem ;
   text-align: center;
   width: 90%;
   border-radius: 5px;
-  margin-bottom:8rem;
+  margin: 1rem;
+ 
 }
 .banner-container button {
   height: 40px;
@@ -162,15 +165,13 @@ main {
   background-color: #084702;
   border: none;
   border-radius: 5px;
-  margin-top: 5rem;
+  margin-bottom: 2rem;
   font-size: 1.2rem;
   font-family: "Roboto", sans-serif 'Oxygen', 'Ubuntu', 'Cantarell', "Open Sans",
     sans-serif, serif;
   text-transform: uppercase;
-  
-  
-}
 
+  }
 /* holidays */
 
 #holidays-container {
@@ -189,7 +190,7 @@ main {
 }
 #holidays-container h2 {
   font-weight: bold;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   text-align: center;
   padding: 0.5rem 0rem;
   margin: auto;
@@ -198,11 +199,11 @@ main {
 #holidays-container > p {
   padding: 0.5rem;
   line-height: 35px;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 #holidays-container h3 {
   color: #3a3a3a;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: bold;
   text-align: center;
   margin-top: 1.5rem;
@@ -581,7 +582,7 @@ input::placeholder {
   font-family: "Merriweather", serif;
   font-size: 0.8rem;
 }
-input[type="submit"] {
+input[type="submit"]{
   width: 90%;
   margin: 1rem;
   padding: 0.8rem 0;
@@ -627,8 +628,8 @@ input[type="submit"] {
   color: #e0c008;
 }
 #sign-in-content form {
-  height: 70%;
-  margin-top: 20%;
+ height: 60%;
+  margin-bottom: 20%;
 }
 #filter {
   display: flex;
@@ -744,14 +745,10 @@ button a{
   /* banner */
 
   .banner-container div {
-    height: 15rem;
-    width: fit-content;
     padding-top: 1rem;
     margin-top: 1.5rem;
   }
-  .banner-container {
-    height: 30rem;
-  }
+ 
   .banner-container p {
     font-size: 2rem;
   }
@@ -761,15 +758,11 @@ button a{
   .banner-container span {
     font-size: 1.7rem;
   }
-.banner-container button{
-  margin-top: 2.5rem;
-}
-  main {
+main {
     margin-top: 75px;
   }
   /* reasons */
   .reasons {
-    /*height: 10rem;*/
     width: 100%;
   }
   #reasons-container {
@@ -825,15 +818,12 @@ button a{
     font-size: 1.3rem;
   }
   /* banner */
+  
   .banner-container {
-    height: 100vh; 
-  }
-  .banner-container div {
-    height: 20rem;
-    width: fit-content;
-    padding-top: 2rem;
-    margin-top: 0em;
-  }
+    min-height: 90vh;
+   
+   }
+
   .banner-container h1 {
     font-size: 7rem;
   }
@@ -841,7 +831,7 @@ button a{
     font-size: 2rem;
   }
   .banner-container button {
-    margin-top: 5rem;
+    
     width: 20rem;
   }
   /* holidays */
