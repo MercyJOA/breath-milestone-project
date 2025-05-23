@@ -164,7 +164,7 @@ main {
   border-radius: 5px;
   margin-top: 5rem;
   font-size: 1.2rem;
-  font-family: "Roboto", sans-serif Oxygen, Ubuntu, Cantarell, "Open Sans",
+  font-family: "Roboto", sans-serif 'Oxygen', 'Ubuntu', 'Cantarell', "Open Sans",
     sans-serif, serif;
   text-transform: uppercase;
   
@@ -688,7 +688,7 @@ button a{
 #filter-content{
   background-image: url(../images/wing-in-the-air-unsplash.jpg);
   background-size: cover;
-  background-position: top 10%;
+  
 }
 /* media query for tablets*/
 
